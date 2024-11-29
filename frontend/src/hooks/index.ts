@@ -33,7 +33,7 @@ export const useBlog = ({id}: {id: string}) =>{
             console.log(error);
             setLoading(false);
         })
-    }, [])
+    }, [id])
 
     return {
         loading,
